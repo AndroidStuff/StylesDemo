@@ -9,16 +9,23 @@
         android:id="@+id/loremIpsum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lorem_ipsum" />
+        android:text="@string/lorem_ipsum" 
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#0000FF" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20dp" />
-    
     <TextView
-        android:id="@+id/loremIpsum2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lorem_ipsum" />
+            android:id="@+id/loremIpsum2"
+            style="@style/myCustomStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/lorem_ipsum2" /> <!-- Note the absence of android: prefix for this style attribute -->
+        <!-- Note margin parameter thats applied on Container is not (or cannot be) exported to styles.xml -->
 
 </LinearLayout>

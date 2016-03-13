@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -15,6 +15,17 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Adding My Own Custom Style -->
+    <style name="myCustomStyle"
+        parent="@android:style/TextAppearance.Medium"> <!-- Inheriting the settings of one of the pre-existing styles that comes with Android SDK-->
+        <!-- Name attrib is the same as the attrib used in Layout File -->
+        <!-- Name attrib typically starts with android: prefix -->
+        <!-- The device will select whatever monospace font that is available; usually it is Courier -->
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#0000FF</item>
     </style>
 
 </resources>

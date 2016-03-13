@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">StylesDemo</string>
-    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget orci sit amet mauris faucibus suscipit luctus efficitur diam. Nunc cursus tempor sem id congue. Sed lectus orci, porttitor eget arcu commodo, dignissim congue nisl. Vestibulum faucibus nisl sed augue eleifend, a iaculis enim posuere. Maecenas finibus erat mauris, eu rhoncus eros mollis at. Ut vehicula viverra arcu volutpat viverra. Vivamus nibh libero, rutrum nec ligula eu, aliquam porta ex.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. CUSTOM STYLE ADDED IN LAYOUT FILE AS ATTRIBUTES. Phasellus eget orci sit amet mauris faucibus suscipit luctus efficitur diam. Nunc cursus tempor sem id congue. Sed lectus orci, porttitor eget arcu commodo, dignissim congue nisl. Vestibulum faucibus nisl sed augue eleifend, a iaculis enim posuere. Maecenas finibus erat mauris, eu rhoncus eros mollis at. Ut vehicula viverra arcu volutpat viverra. Vivamus nibh libero, rutrum nec ligula eu, aliquam porta ex.</string>
+    <string name="lorem_ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. CUSTOM STYLE DEFINED IN STYLES.XML AND IS APPLIED IN LAYOUT FILE AS ATTRIBUTE FOR THIS FIELD. Phasellus eget orci sit amet mauris faucibus suscipit luctus efficitur diam. Nunc cursus tempor sem id congue. Sed lectus orci, porttitor eget arcu commodo, dignissim congue nisl. Vestibulum faucibus nisl sed augue eleifend, a iaculis enim posuere. Maecenas finibus erat mauris, eu rhoncus eros mollis at. Ut vehicula viverra arcu volutpat viverra. Vivamus nibh libero, rutrum nec ligula eu, aliquam porta ex.</string>
 
 </resources>
